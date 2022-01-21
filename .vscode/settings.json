@@ -1,0 +1,25 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  },
+  "breadcrumbs.enabled": true,
+  "salesforcedx-vscode-apex.java.home": "C:\\Program Files\\Java\\jdk-11.0.13",
+  // "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
+  "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+  "salesforcedx-vscode-core.enable-sobject-refresh-on-startup": true,
+  "editor.formatOnSave": true,
+  "terminal.integrated.env.osx": {
+      "SFDX_SET_CLIENT_IDS": "sfdx-vscode"
+  },
+  "terminal.integrated.env.linux": {
+      "SFDX_SET_CLIENT_IDS": "sfdx-vscode"
+  },
+  "terminal.integrated.env.windows": {
+      "SFDX_SET_CLIENT_IDS": "sfdx-vscode"
+  },
+  "salesforcedx-vscode-core.show-cli-success-msg": false
+}
+// changed the java.home path above to use jdk on machine
+//C:\\Program Files\\Zulu\\zulu-11P

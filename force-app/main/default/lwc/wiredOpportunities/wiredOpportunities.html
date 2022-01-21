@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Opportunities Filter" icon-name="standard:opportunity">
+        <lightning-combobox
+        placeholder="Select Opportunity Stage"
+        value={currentOpportunity}
+        onchange={handleChange}
+        options={stageNames.data}
+        >
+    </lightning-combobox>
+    <lightning-datatable key-field="id" data ={OpportunityDetails.data} columns={columns}></lightning-datatable>
+    </lightning-card>
+</template>
