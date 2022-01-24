@@ -1,14 +1,14 @@
 public class OpportunityController {
     public with sharing class ValueWrapper {
-          @auraEnabled public string label {get;set;}
-          @auraEnabled public string value {get;set;}
-    }
-    get list of stages   
+        @auraEnabled public string label {get;set;}
+        @auraEnabled public string value {get;set;}
+    } 
+    //get list of stages
     @AuraEnabled(cacheable = true)
-    public static ListValueWrapper getStages() {
-        ListSchema.PicklistEntry fieldResults = Opportunity.stageName.getDescribe().getPicklistValues();
-        ListValueWrapper stageList = new ListValueWrapper();
-        for(Schema.PicklistEntry fieldResult fieldResults){
+    public static List<ValueWrapper> getStages() {
+        List<Schema.PicklistEntry> fieldResults = Opportunity.stageName.getDescribe().getPicklistValues();
+        List<ValueWrapper> stageList = new List<ValueWrapper>();
+        for(Schema.PicklistEntry fieldResult: fieldResults){
             ValueWrapper returningObject = new ValueWrapper();
             returningObject.value = fieldResult.value;
             returningObject.label = fieldResult.label;
@@ -21,12 +21,12 @@ public class OpportunityController {
         return stageList;
     }
     @AuraEnabled(cacheable = true)
-    public static ListOpportunity getOpportunity(string stgName){
-        String key = stgName == 'All'  '%'  stgName;
+    public static List<Opportunity> getOpportunity(string stgName){
+        String key = stgName == 'All' ? '%' : stgName;
         return [SELECT id, name, accountId, stageName
-                    FROM opportunity
-                    WHERE stageName
-                    Like key
+                FROM opportunity
+                WHERE stageName
+                Like :key
                ];
     }
 }
