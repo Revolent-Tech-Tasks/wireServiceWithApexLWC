@@ -1,32 +1,5 @@
 [
     {
         "stageName":"Prospecting"
-    },
-    {
-        "stageName":"Qualification"
-    },
-    {
-        "stageName":"Need Analysis"
-    },
-    {
-        "stageName":"Value Proposition"
-    },
-    {
-        "stageName":"Id. Decision Makers"
-    },
-    {
-        "stageName":"Preception Analysis"
-    },
-    {
-        "stageName":"Proposal/Price Quote"
-    },
-    {
-        "stageName":"Negotiation/Review"
-    },
-    {
-        "stageName":"Closed Won"
-    },
-    {
-        "stageName":"Closed Lost"
     }
 ]
