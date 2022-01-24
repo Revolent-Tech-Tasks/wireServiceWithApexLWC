@@ -1,6 +1,7 @@
 # Salesforce Lightning Web Component
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This project is for the purpose of our team tech task 2 to provide a solution to show case the ability to use lightning web components in Salesforce environment.
+This project uses Lightning web components and jest testing framework to implement the conditional fetching of opportunities list based on stage name selected by the user.
 
 ## Configure Lightning Web Component Project
 
