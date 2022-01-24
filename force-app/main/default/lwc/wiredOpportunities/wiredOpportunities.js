@@ -6,7 +6,7 @@ export default class WiredOpportunities extends LightningElement {
     @wire(getStages) stageNames;
     @wire(getOpportunity, { stgName: '$currentOpportunity' }) OpportunityDetails;
     columns = [    
-        { label: 'Opportunity Name', fieldName: 'Name' },
+        { label: 'Opportunity', fieldName: 'Name' },
         { label: 'Stage', fieldName: 'StageName' }
         ]   
     handleChange = (eve) => {
