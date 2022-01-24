@@ -1,14 +1,13 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Lightning Web Component
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This project is for the purpose of our team tech task 2 to provide a solution to show case the ability to use lightning web components in Salesforce environment.
+This project uses Lightning web components and jest testing framework to implement the conditional fetching of opportunities list based on stage name selected by the user.
 
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
+## Configure Lightning Web Component Project
 
 The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+
+After cloning the project use `npm install ` command to get all the dependecies in the node modules
 
 ## Read All About It
 
