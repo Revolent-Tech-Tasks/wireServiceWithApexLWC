@@ -1,5 +1,14 @@
-[
-    {
-        "stageName":"Prospecting"
-    }
-]
+{
+    "stageName" :[
+        "Prospecting",
+        "Qualification",
+        "Need Analysis",
+        "Value Proposition",
+        "Id. Decision Makers",
+        "Preception Analysis",
+        "Proposal/Price Quote",
+        "Negotiation/Review",
+        "Closed Won",
+        "Closed Lost"
+    ]
+}
