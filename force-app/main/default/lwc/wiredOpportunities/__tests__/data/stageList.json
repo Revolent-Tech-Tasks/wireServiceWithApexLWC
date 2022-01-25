@@ -1,14 +1,51 @@
 {
-    "stageName" :[
-        "Prospecting",
-        "Qualification",
-        "Need Analysis",
-        "Value Proposition",
-        "Id. Decision Makers",
-        "Preception Analysis",
-        "Proposal/Price Quote",
-        "Negotiation/Review",
-        "Closed Won",
-        "Closed Lost"
-    ]
+    "stageNames" :
+        {
+        "data":[
+            {
+                "label":"Prospecting",
+                "Value":"Prospecting"
+            },
+            {
+                "label":"Qualification",
+                "Value":"Qualification"
+            },
+            {
+                "label":"Need Analysis",
+                "Value":"Need Analysis"
+            },
+            {
+                "label":"Value Proposition",
+                "Value":"Value Proposition"
+            },
+            {
+                "label":"Id. Decision Makers",
+                "Value":"Id. Decision Makers"
+            },
+            {
+                "label":"Preception Analysis",
+                "Value":"Preception Analysis"
+            },
+            {
+                "label":"Proposal/Price Quote",
+                "Value":"Proposal/Price Quote"
+            },            
+            {
+                "label":"Negotiation/Review",
+                "Value":"Negotiation/Review"
+            },            
+            {
+                "label":"Closed Won",
+                "Value":"Closed Won"
+            },            
+            {
+                "label":"Closed Lost",
+                "Value":"Closed Lost"
+            },            
+            {
+                "label":"All",
+                "Value":"All"
+            }
+        ]
+    }
 }
